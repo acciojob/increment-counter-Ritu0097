@@ -1,9 +1,9 @@
 const paraincre=document.getElementById('counter');
-const clickbutton=document.getElementById('eg1');
+const clickbutton=document.getElementById('incrementBtn');
 
 clickbutton.addEventListener('click',() => {
 	let counterVal = parseInt(paraincre.textContent);
-	// alert(counterVal);
+	alert(counterVal);
 	counterVal++;
 	paraincre.textContent=counterVal;
 });
