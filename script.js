@@ -3,7 +3,7 @@ const clickbutton=document.getElementById('incrementBtn');
 
 clickbutton.addEventListener('click',() => {
 	let counterVal = parseInt(paraincre.textContent);
+	alert(counterVal);
 	counterVal++;
 	paraincre.textContent=counterVal;
-	alert(counterVal);
 });
